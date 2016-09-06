@@ -27,6 +27,37 @@ a.more.more-news {
     margin: 10px 0 0;    
 }
 
+/*下拉列表*/
+.nav_menu li{
+	float: none;
+	margin: 0;
+	line-height: 32px;
+}
+.nav_menu{
+	padding: 0;
+	position: absolute;
+	display: none;
+	list-style: none;
+	background-color: #fff;
+}
+.nav_menu li{
+	padding: 0 3px;
+	font-size: 12px;
+}
+.nav_menu a{
+	margin: 0 10px;
+	color: #878787;
+}
+.nav_li:hover .nav_menu{
+	display: block;
+}
+.nav_menu li:hover{
+	background-image: url(../images/show_weixin.png);
+}
+.nav_menu li:hover a{
+	color:#fff;
+}
+
 .title{
     display: table;
     margin: 10px 0;
